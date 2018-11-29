@@ -22,3 +22,7 @@ Customer must process input data as per requirment and "render" the pdf
 ## Other
 PDF will be generated in memory. Flex does not have a way of storing files. The file can be sent back to the client app
 and uploaded to the files section in a different API call.
+
+## Limitations
+FSR does not allow adding headers to the request so we cannot enforce an "application/pdf" for the response to be treated as
+a pdf file (and get autoloaded in the browser).
