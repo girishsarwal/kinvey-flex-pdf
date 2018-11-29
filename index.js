@@ -2,8 +2,11 @@
 /**
  * sample to generate a pdf
  * inputs: 
- *      html: the html payload
- *      binary: return the file stream instead of a deeplinked url [*true/false]
+ *      format: return the payload as a raw string vs base64 encoded (*raw/base64)
+ *  prerequisites:
+ * npm install --save kinvey-flex-sdk pdfkit memory-streams base-64
+ * see http://pdfkit.org/ on how to generate PDF document
+ * customer must process input data as per requirment and "render" the pdf
  */
 const sdk = require('kinvey-flex-sdk');
 const PDFDocument = require('pdfkit');
