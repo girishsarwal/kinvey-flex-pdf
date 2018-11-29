@@ -1,0 +1,18 @@
+{
+  "name": "kinvey-pdf-generate",
+  "version": "1.0.21",
+  "description": "this is a sample to generate pdf from html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "girish sarwal",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "blob-stream": "^0.1.3",
+    "kinvey-flex-sdk": "^3.1.2",
+    "memory-streams": "^0.1.3",
+    "pdfkit": "^0.8.3"
+  }
+} 
